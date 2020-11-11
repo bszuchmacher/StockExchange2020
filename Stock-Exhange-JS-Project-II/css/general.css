@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #383838;
+  background-color: #fffefe;
+}
+
+.main {
+  min-height: 625px;
+  width: 900px;
+  padding: 30px 0px 20px 0;
+  padding-bottom: 20px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 6px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 20px rgb(173, 169, 169);
+  background-color: white;
+}
+mark {
+  background-color: yellow;
+  padding-right: 0;
+  padding-left: 0;
+}

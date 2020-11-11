@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben Szuchmacher | Stock Exchange</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/marquee.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="marquee" class="marquee"></div>
+    <div class="main-container">
+      <div class="main">
+        <div>
+          <div id="searchContainer" class="search-container">
+            <div id="compare" class="compare">
+              <div id="companiesToCompare"></div>
+              <a
+                id="openCompanyComparisonPage"
+                target="_blank"
+                class="compare-text"
+                >Compare companies</a
+              >
+            </div>
+            <h1 class="header">Search Nasdaq Stocks</h1>
+            <div id="search" class="search"></div>
+            <ul id="searchResults" class="list-group list-group-flush"></ul>
+          </div>
+        </div>
+        <div id="spinner"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+    <script src="js/marquee.js"></script>
+    <script src="js/searchForm.js"></script>
+    <script src="js/searchResults.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
